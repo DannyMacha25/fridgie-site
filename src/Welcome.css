@@ -1,0 +1,26 @@
+.logo{
+    animation: fadeUpIn 1.5s ease-in forwards;
+}
+
+.slogan{
+    animation: fadeUpIn 1s ease-in forwards;
+    animation-delay: 2s;
+    opacity: 0; 
+}
+
+.survey{
+    animation: fadeUpIn 1s ease-in forwards;
+    animation-delay: 4s;
+    opacity: 0;  
+}
+
+@keyframes fadeUpIn{
+    from {
+        transform: translateY(25%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0%);
+        opacity: 100;
+    }
+}
