@@ -1,5 +1,5 @@
 import axios from "axios"
-const URL = 'http://localhost:3001'
+const URL = 'https://useful-illegally-leopard.ngrok-free.app'
 
 
 const subscribeToNewsletter = (email : string) => {
